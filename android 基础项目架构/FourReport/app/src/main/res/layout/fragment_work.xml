@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start_from_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:drawableRight="@mipmap/right_white"
+            android:text="驻地出发" />
+
+        <Button
+            android:id="@+id/btn_arrive_worksite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@mipmap/right_white"
+            android:text="抵达工地" />
+
+        <Button
+            android:id="@+id/btn_return_from_worksite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@mipmap/right_white"
+            android:text="工地返回" />
+
+        <Button
+            android:id="@+id/btn_arrive_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_70"
+            android:layout_marginTop="30dp"
+            android:drawableRight="@mipmap/right_white"
+            android:text="抵达驻地" />
+
+    </LinearLayout>
+
+</RelativeLayout>

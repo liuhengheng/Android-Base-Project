@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.wx.ovalimageview.RoundImageView
+        android:id="@+id/round_imageview1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/image" />
+
+
+    <!--<TextView-->
+
+    <!--android:id="@+id/tv_username"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:paddingTop="@dimen/dp_10"-->
+    <!--android:text="Android Studio"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/round_imageview1"
+        android:text="王五"
+        android:textSize="@dimen/dp_40" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/round_imageview1"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="18348912306"
+        android:textSize="@dimen/dp_20"
+        android:visibility="visible" />
+
+</RelativeLayout>
